@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -59,10 +59,6 @@
 		A954B5362CF70A0B003D18C1 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		A954B52C2CF70788003D18C1 /* Kaltham */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Kaltham; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
 		323A851B2CEBA1920037DCEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -111,12 +107,11 @@
 		323A85202CEBA1920037DCEE /* Levent */ = {
 			isa = PBXGroup;
 			children = (
-				A954B52C2CF70788003D18C1 /* Kaltham */,
 				323A85212CEBA1920037DCEE /* AppDelegate.swift */,
 				323A85572CECE0B10037DCEE /* users.json */,
 				323A85232CEBA1920037DCEE /* SceneDelegate.swift */,
 				323A85252CEBA1920037DCEE /* ViewController.swift */,
-				A954B5312CF70862003D18C1 /* UserAccountSettings */,
+				A954B5312CF70862003D18C1 /* UserAccountSettings-Kaltham */,
 				323A85272CEBA1920037DCEE /* Main.storyboard */,
 				323A85532CEBA83B0037DCEE /* SignUpViewController.swift */,
 				323A85512CEBA44E0037DCEE /* LoginViewController.swift */,
@@ -144,12 +139,12 @@
 			path = LeventUITests;
 			sourceTree = "<group>";
 		};
-		A954B5312CF70862003D18C1 /* UserAccountSettings */ = {
+		A954B5312CF70862003D18C1 /* UserAccountSettings-Kaltham */ = {
 			isa = PBXGroup;
 			children = (
 				A954B5362CF70A0B003D18C1 /* Storyboard.storyboard */,
 			);
-			path = UserAccountSettings;
+			path = "UserAccountSettings-Kaltham";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,9 +161,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				A954B52C2CF70788003D18C1 /* Kaltham */,
 			);
 			name = Levent;
 			productName = Levent;
