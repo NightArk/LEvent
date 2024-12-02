@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,7 +19,6 @@
 		323A85522CEBA44E0037DCEE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A85512CEBA44E0037DCEE /* LoginViewController.swift */; };
 		323A85542CEBA83C0037DCEE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A85532CEBA83B0037DCEE /* SignUpViewController.swift */; };
 		323A85582CECE0B10037DCEE /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 323A85572CECE0B10037DCEE /* users.json */; };
-		A954B5372CF70A0B003D18C1 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A954B5362CF70A0B003D18C1 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +55,12 @@
 		323A85512CEBA44E0037DCEE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		323A85532CEBA83B0037DCEE /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		323A85572CECE0B10037DCEE /* users.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = users.json; sourceTree = "<group>"; };
-		A954B5362CF70A0B003D18C1 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A9FA30992CFE677700794062 /* PersonalizedEventRecommendations */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = PersonalizedEventRecommendations; sourceTree = "<group>"; };
+		A9FA309D2CFE677B00794062 /* UserProfileSettings */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = UserProfileSettings; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		323A851B2CEBA1920037DCEE /* Frameworks */ = {
@@ -142,7 +145,8 @@
 		A954B5312CF70862003D18C1 /* Kaltham */ = {
 			isa = PBXGroup;
 			children = (
-				A954B5362CF70A0B003D18C1 /* Storyboard.storyboard */,
+				A9FA30992CFE677700794062 /* PersonalizedEventRecommendations */,
+				A9FA309D2CFE677B00794062 /* UserProfileSettings */,
 			);
 			path = Kaltham;
 			sourceTree = "<group>";
@@ -161,6 +165,10 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A9FA30992CFE677700794062 /* PersonalizedEventRecommendations */,
+				A9FA309D2CFE677B00794062 /* UserProfileSettings */,
 			);
 			name = Levent;
 			productName = Levent;
@@ -255,7 +263,6 @@
 				323A852E2CEBA1930037DCEE /* Base in Resources */,
 				323A85582CECE0B10037DCEE /* users.json in Resources */,
 				323A85292CEBA1920037DCEE /* Base in Resources */,
-				A954B5372CF70A0B003D18C1 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
