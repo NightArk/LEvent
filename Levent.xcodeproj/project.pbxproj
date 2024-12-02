@@ -111,7 +111,7 @@
 				323A85572CECE0B10037DCEE /* users.json */,
 				323A85232CEBA1920037DCEE /* SceneDelegate.swift */,
 				323A85252CEBA1920037DCEE /* ViewController.swift */,
-				A954B5312CF70862003D18C1 /* UserAccountSettings-Kaltham */,
+				A954B5312CF70862003D18C1 /* Kaltham */,
 				323A85272CEBA1920037DCEE /* Main.storyboard */,
 				323A85532CEBA83B0037DCEE /* SignUpViewController.swift */,
 				323A85512CEBA44E0037DCEE /* LoginViewController.swift */,
@@ -139,12 +139,12 @@
 			path = LeventUITests;
 			sourceTree = "<group>";
 		};
-		A954B5312CF70862003D18C1 /* UserAccountSettings-Kaltham */ = {
+		A954B5312CF70862003D18C1 /* Kaltham */ = {
 			isa = PBXGroup;
 			children = (
 				A954B5362CF70A0B003D18C1 /* Storyboard.storyboard */,
 			);
-			path = "UserAccountSettings-Kaltham";
+			path = Kaltham;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
